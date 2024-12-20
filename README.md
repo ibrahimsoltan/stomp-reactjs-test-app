@@ -17,8 +17,6 @@ This project demonstrates real-time communication between a ReactJS frontend and
 ### Prerequisites
 - Node.js (v14 or higher)
 - NPM or Yarn
-- Java 17 or higher
-- Maven
 - A web browser
 
 ---
@@ -49,26 +47,26 @@ $ npm run dev
 Visit the frontend at `http://localhost:3000`.
 
 
-
-## How to Use
-
-1. **Start the Backend:**  
-   Ensure the Spring Boot backend is running on `http://localhost:8082`.
-
 ## Linked Backend Repository
 This project works with a Spring Boot backend. You can find the backend repository here:
 [Java Backend Repository](https://github.com/ibrahimsoltan/STOMP-Sample-Project)
 
 
-2. **Run the Frontend:**  
+## How to Use
+
+1. **Start the Backend:**  
+   Ensure the Spring Boot backend is running on `http://localhost:8082`.
+   Use the link above to get the Springboot Project
+
+3. **Run the Frontend:**  
    Start the Vite development server with `npm run dev`.
 
-3. **Test WebSocket Connection:**
+4. **Test WebSocket Connection:**
    - Click **"Connect to WebSocket"** in the UI to establish the connection.
    - Messages received from the backend will appear in the message list.
    - A test message is sent to the backend upon connection.
 
-4. **Disconnect:**  
+5. **Disconnect:**  
    - Click **"Disconnect from WebSocket"** to close the connection.
 
 ---
