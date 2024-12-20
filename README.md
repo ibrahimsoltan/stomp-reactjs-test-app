@@ -55,6 +55,11 @@ Visit the frontend at `http://localhost:3000`.
 1. **Start the Backend:**  
    Ensure the Spring Boot backend is running on `http://localhost:8082`.
 
+## Linked Backend Repository
+This project works with a Spring Boot backend. You can find the backend repository here:
+[Java Backend Repository](https://github.com/ibrahimsoltan/STOMP-Sample-Project)
+
+
 2. **Run the Frontend:**  
    Start the Vite development server with `npm run dev`.
 
